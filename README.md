@@ -14,7 +14,7 @@ A small Rails API that receives messages via webhook, processes them, and return
 ## Setup
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/andreavecy/webhook_service.git
 cd webhook_service
 bundle install
 ```
