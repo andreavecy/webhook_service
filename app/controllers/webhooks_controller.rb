@@ -1,4 +1,6 @@
 class WebhooksController < ApplicationController
+  wrap_parameters false
+
   MESSAGE_LOGGER = ActiveSupport::Logger.new(Rails.root.join("log/messages.log"))
 
   def create
